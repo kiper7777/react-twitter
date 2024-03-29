@@ -21,6 +21,8 @@ class Post {
       this.#list.push(newPost)
     }
 
+    console.log(this.#list)
+
     return newPost
   }
 
